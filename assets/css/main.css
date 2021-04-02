@@ -1,13 +1,9 @@
 body{
-  text-align: center;
   background-color: aliceblue;
 }
-
  #game{
-
   display: flex;
   flex-direction: row;
-
   justify-content: center;
   text-align: center;
   background-color: royalblue;
@@ -15,52 +11,16 @@ body{
   width: 100%;
   border-radius: 5px;
 }
-
 .row{
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: aliceblue;
   margin: 5px;
-  
 }
-
 .red{
   background-color: red;
 }
-
 .yellow{
-  background-color: yellow;
-}
-
-.row.hoverRed{
-
-  background-color: darkred;
-}
-
-.row.hoverYellow{
-
-  background-color: darkgoldenrod;
-}
-
-/*
-#game table {
-  border: 3px royalblue outset;
-  background-color: royalblue;
-}
-#game td {
-  width: 2cm;
-  height: 2cm;
-  margin: 0px;
-  padding: 0px;
-  border: 2px royalblue inset;
-  border-radius: 2cm;
-  background-color: white;
-  cursor: pointer;
-}
-#game td.player1 {
-  background-color: red;
-}
-#game td.player2 {
   background-color: yellow;
 }
